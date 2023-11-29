@@ -1,6 +1,4 @@
 ```
-git clone https://github.com/daparic/qemu-stuff.git
-cd qemu-stuff
 ./boot.sh # select 2
 ```
 Wait for a few minutes for Qemu to boot. Then:
