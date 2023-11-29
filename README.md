@@ -1,1 +1,1 @@
-# Parasoft C/C++test Demo 
+# Parasoft C/C++test Embedded Demo 
