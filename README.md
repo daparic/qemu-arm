@@ -17,7 +17,7 @@ For Windows, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/compo
 
 For Linux, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu.tar.xz) and unzip it to a location of your choice.
 
-Edit `activate.sh` file for path adjustment changes.
+Edit [activate.sh](https://github.com/daparic/qemu-arm/blob/main/activate.sh) file for path adjustment changes.
 
 ## Windows Setup
 
