@@ -11,12 +11,13 @@ This [boot.sh](https://github.com/daparic/qemu-arm/blob/main/qemu/boot.sh) scrip
 ```
 Wait for a moment for Qemu to fully boot. Initially, it takes about 1.5 minutes for the onetime download of the ARM64 image. And then another 3 minutes for Qemu for each boot up. Changes made are made persistent on next boot.
 
-## Login into emulator
+## Setup Destination Location in Target
 
 Open git bash shell, and try a test login:
 
 ```
 ssh -p 2222 ubuntu@localhost # password is asdfqwer
+mkdir -p qemu-arm/bin/unix/qemuapp
 ```
 
 ## Setup ssh keypair of development machine
