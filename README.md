@@ -19,7 +19,7 @@ For Linux, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/compone
 
 Edit [activate.sh](https://github.com/daparic/qemu-arm/blob/main/activate.sh) file for path adjustment changes.
 
-## Windows Setup
+## Windows Git Bash
 
 Install [Git bash](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe) as we will be using it as our terminal. Open git bash shell, clone the project and set environment variables:
 
