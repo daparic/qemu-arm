@@ -11,7 +11,7 @@ The highlights of this example project is to demonstrate [Parasoft C/C++test](ht
 
 will be demonstrated through this example project.  The steps described here is applicable both in a Windows or in a Linux as the host development machine. 
 
-## Cross-compiler Environment Setup
+## Download Cross-compiler
 
 For Windows, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.5.0-2019.12-i686-mingw32_aarch64-linux-gnu.tar.xz) and unzip it to a location of your choice.
 
