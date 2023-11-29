@@ -32,4 +32,4 @@ source activate.sh
 
 ## QEMU ARM Emulator Setup
 
-For maximum portability for demonstration purposes, [QEMU ARM Emulation](https://www.qemu.org/) shall be used. 
+For maximum portability for demonstration purposes, [QEMU ARM Emulation](https://github.com/daparic/qemu-arm/tree/main/qemu) shall be used. 
