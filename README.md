@@ -11,7 +11,20 @@ will be demonstrated through this example project.  This steps described here is
 
 ## Cross-compiler Environment Setup
 
-TODO
+For Windows, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.5.0-2019.12-i686-mingw32_aarch64-linux-gnu.tar.xz) and unzip it to a location of your choice.
+
+For Linux, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu.tar.xz) and unzip it to a location of your choice.
+
+## Windows Setup
+
+Install [Git bash](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe) as we will be using it as our terminal. Open git bash shell, clone the project and set environment variables:
+
+```
+git clone https://github.com/daparic/qemu-arm
+cd qemu-arm/
+# Do the necessary path adjustments inside activate.sh, then activate it.
+source activate.sh
+```
 
 ## QEMU ARM Emulator Setup
 
