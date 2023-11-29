@@ -21,7 +21,7 @@ Edit [activate.sh](https://github.com/daparic/qemu-arm/blob/main/activate.sh) fi
 
 ## Windows Git Bash
 
-This part is for Windows only, install [Git bash](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe) as we will be using it as our terminal for Windows machine. Open git bash shell, clone the project and set environment variables:
+Install [Git bash](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe) as we will be using it as our terminal for Windows machine. Open git bash shell, clone the project and set environment variables:
 
 ```
 git clone https://github.com/daparic/qemu-arm
