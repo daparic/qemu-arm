@@ -9,7 +9,7 @@ The highlights of this example project is to demonstrate [Parasoft C/C++test](ht
 - Custom workflow recipes 
 - IDE integration (Eclipse, Keil, TI CCS, etc)
 
-will be demonstrated through this example project.  This steps described here is applicable both in a Windows or Linux environment. 
+will be demonstrated through this example project.  The steps described here is applicable both in a Windows or in a Linux as the host development machine. 
 
 ## Cross-compiler Environment Setup
 
