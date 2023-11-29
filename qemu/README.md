@@ -5,7 +5,7 @@ For Windows, select the latest and download the installer from [here](https://qe
  
 ## Boot up ARM emulator
 
-The core steps is taken from this [reference](https://gist.github.com/billti/d904fd6124bf6f10ba2c1e3736f0f0f7). 
+This [boot.sh](https://github.com/daparic/qemu-arm/blob/main/qemu/boot.sh) script is just a wrapper of the core steps from this [reference](https://gist.github.com/billti/d904fd6124bf6f10ba2c1e3736f0f0f7). 
 ```
 ./boot.sh # select 2
 ```
