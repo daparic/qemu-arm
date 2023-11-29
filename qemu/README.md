@@ -45,7 +45,7 @@ The key's randomart image is:
 After the ssh keypair is generated, use it to setup a passwordless login into the emulator:
 
 ```
-ssh-copy-id -P 2222 ubuntu@localhost # password is asdfqwer
+ssh-copy-id -p 2222 ubuntu@localhost # password is asdfqwer
 ```
 
 Succeeding ssh logins should no longer prompt for a password. This is important because **Parasoft C/C++test** unit test workflow in this demo project shall use SSH as transport mechanism. 
