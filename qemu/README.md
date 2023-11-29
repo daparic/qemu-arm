@@ -1,9 +1,53 @@
+## Boot up ARM emulator
+
 ```
 ./boot.sh # select 2
 ```
-Wait for a few minutes for Qemu to boot. Then:
+Wait for a moment for Qemu to fully boot. Initially, it takes about 1.5 minutes for the onetime download of the ARM64 image. And then another 3 minutes for Qemu for each boot up. Changes made are made persistent on next boot.
+
+## Login into emulator
+
+Open git bash shell, and try a test login:
+
 ```
 ssh -p 2222 ubuntu@localhost # password is asdfqwer
 ```
+
+## Setup ssh keypair of development machine
+
+Open git bash shell and type `ssh-keygen`:
+
+```
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/dexter/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in id_rsa
+Your public key has been saved in id_rsa.pub
+The key fingerprint is:
+SHA256:LlPUmvvU7kgt3LtbrnX4chjlcxVLTgr2bD8MbA/Q9YU dx@devmachine
+The key's randomart image is:
++---[RSA 3072]----+
+|            . .o.|
+|         . + .E+o|
+|        . o * = +|
+|       . o   X oo|
+|        S   o *o.|
+|       o o +  .Bo|
+|      o o = + +o=|
+|       o + + =oo.|
+|          o.B+.o.|
++----[SHA256]-----+
+
+```
+
+After the ssh keypair is generated, use it to setup a passwordless login into the emulator:
+
+```
+ssh-copy-id -P 2222 ubuntu@localhost # password is asdfqwer
+```
+
+Succeeding ssh logins should no longer prompt for a password. This is important because **Parasoft C/C++test** unit test workflow in this demo project shall use SSH as transport mechanism. 
 
 [Reference](https://gist.github.com/billti/d904fd6124bf6f10ba2c1e3736f0f0f7)
