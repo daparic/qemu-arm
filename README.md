@@ -30,6 +30,8 @@ cd qemu-arm/
 source activate.sh
 ```
 
+There is nothing to do on this part in a Linux Ubuntu development machine. 
+
 ## Setup QEMU ARM Emulator
 
 For portability of this demo, [QEMU ARM Emulation](https://github.com/daparic/qemu-arm/tree/main/qemu) shall be used. 
