@@ -59,4 +59,4 @@ ssh-copy-id -p 2222 ubuntu@localhost # password is asdfqwer
 
 Succeeding ssh logins should no longer prompt for a password. This is important because **Parasoft C/C++test** unit test workflow in this demo project shall use SSH as transport mechanism. 
 
-[BACK](https://github.com/daparic/qemu-arm/blob/main/README.md) [Reference](https://gist.github.com/billti/d904fd6124bf6f10ba2c1e3736f0f0f7)
+[BACK](https://github.com/daparic/qemu-arm/blob/main/README.md)
