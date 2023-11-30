@@ -1,5 +1,5 @@
-CXX=cpptestscan --cpptestscanOutputFile=cpptestscan.bdf aarch64-linux-gnu-g++
-CC=cpptestscan --cpptestscanOutputFile=cpptestscan.bdf  aarch64-linux-gnu-gcc
+CXX=aarch64-linux-gnu-g++
+CC=aarch64-linux-gnu-gcc
 
 INCLUDE_FLAGS=-Iinclude
 DEBUG_FLAGS=
