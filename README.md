@@ -11,13 +11,13 @@ The highlights of this example project is to demonstrate [Parasoft C/C++test](ht
 
 will be demonstrated through this example project.  The steps described here is applicable both in a Windows or in a Linux as the host development machine. 
 
-## Download Cross-compiler
+## Download Cross Compiler
 
 For Windows, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.5.0-2019.12-i686-mingw32_aarch64-linux-gnu.tar.xz) and unzip it to a location of your choice.
 
 For Linux, download [Linaro GCC 7.5-2019.12](https://releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu.tar.xz) and unzip it to a location of your choice.
 
-Edit [activate.sh](https://github.com/daparic/qemu-arm/blob/main/activate.sh) file for path adjustment changes.
+Edit [activate.sh](https://github.com/daparic/qemu-arm/blob/main/activate.sh) file for path adjustment changes, where you unzipped the Linaro cross compiler.
 
 ## Windows Git Bash
 
