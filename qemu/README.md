@@ -2,7 +2,10 @@
 
 Install the [QEMU](https://www.qemu.org/) hardware virtualizer.
 
+[![asciicast](https://asciinema.org/a/FlmbZrEgB2sNjWbHGRdjY92Pt.svg)](https://asciinema.org/a/FlmbZrEgB2sNjWbHGRdjY92Pt)
+
 For Ubuntu Linux: `sudo apt install qemu-system-arm`. 
+
 For Windows, select the latest and download the installer from [here](https://qemu.weilnetz.de/w64/)
  
 ## Boot up ARM emulator
