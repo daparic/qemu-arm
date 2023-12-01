@@ -2,8 +2,6 @@
 
 Install the [QEMU](https://www.qemu.org/) hardware virtualizer.
 
-[![asciicast](https://asciinema.org/a/FlmbZrEgB2sNjWbHGRdjY92Pt.svg)](https://asciinema.org/a/FlmbZrEgB2sNjWbHGRdjY92Pt)
-
 For Ubuntu Linux: `sudo apt install qemu-system-arm`. 
 
 For Windows, select the latest and download the installer from [here](https://qemu.weilnetz.de/w64/)
@@ -15,6 +13,8 @@ This [boot.sh](https://github.com/daparic/qemu-arm/blob/main/qemu/boot.sh) scrip
 ./boot.sh # select 2
 ```
 Wait for a moment for Qemu to fully boot. Initially, it takes about 1.5 minutes for the onetime download of the ARM64 image. And then another 3 minutes for Qemu for each boot up. Changes made are made persistent on next boot.
+
+[![asciicast](https://asciinema.org/a/FlmbZrEgB2sNjWbHGRdjY92Pt.svg)](https://asciinema.org/a/FlmbZrEgB2sNjWbHGRdjY92Pt)
 
 ## Create Destination Folder in Target
 
