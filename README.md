@@ -25,9 +25,13 @@ For Linux, download [Linaro GCC 7.5-2019.12 for Linux](https://releases.linaro.o
 
 Edit [activate.sh](https://github.com/daparic/qemu-arm/blob/main/activate.sh) file for path adjustment changes, where you unzipped the Linaro cross compiler.
 
-## Windows Git Bash
+## Setup QEMU ARM Emulator
 
-Install [Git bash](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe) as we will be using it as our terminal for Windows machine. Open git bash shell, clone the project and set environment variables:
+For portability of this demo, [QEMU ARM Emulation](https://github.com/daparic/qemu-arm/tree/main/qemu) shall be used. 
+
+## Others
+
+Windows development machine needs to install [Git bash](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe) as we will be using it as our terminal for Windows machine. Open git bash shell, clone the project and set environment variables:
 
 ```
 git clone https://github.com/daparic/qemu-arm
@@ -35,7 +39,4 @@ cd qemu-arm/
 # Ensure that the necessary path adjustments have been made, then activate it.
 source activate.sh
 ```
- 
-## Setup QEMU ARM Emulator
 
-For portability of this demo, [QEMU ARM Emulation](https://github.com/daparic/qemu-arm/tree/main/qemu) shall be used. 
