@@ -1,5 +1,7 @@
 # Parasoft C/C++test Embedded Demo 
 
+https://www.youtube.com/watch?v=Rzvrv1JIHrM
+
 The highlights of this example project is to demonstrate [Parasoft C/C++test](https://docs.parasoft.com/display/CPPTESTPROEC20231) capabilities for software quality improvement in the embedded software domain. Capabilities for:
 
 - Cross compilation to a target's platform
