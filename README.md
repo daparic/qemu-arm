@@ -40,6 +40,6 @@ cd qemu-arm/
 source activate.sh
 ```
 ## Note
-The demo here which uses the custom compiler in the github repository only works for the 2023.1 version. If you are using a newer version such as the 2023.2 then you have to create a custom compiler instead of importing from the one in the github repository.
+The youtube demo here which uses the custom compiler in the github repository only works for the 2023.1 version. If you are using a newer version such as the 2023.2 then you have to create a custom compiler instead of importing from the one in the github repository.
 
-The custom compiler created in 2023.1 only works on same version 2023.1 of "Parasoft C/C++test" tool.
+The custom compiler created in 2023.1 only works on same version 2023.1 of "Parasoft C/C++test" tool. For this reason, the custom compiler have been affixed to match the cpptest version (ie 2023.1, 2023.2).
